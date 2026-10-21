@@ -12,6 +12,8 @@ This repository contains my Python programs and practice exercises as I learn Py
 - List Comprehensions
 - Functions
 - Strings
+- Lists
+- Tuples
 - Internal Assessments
 - Revision Programs
 
@@ -29,7 +31,7 @@ Programs are organized into folders by topic, making it easier to track learning
 
 ## Progress
 
-Currently practising Python collections, loops, nested lists, and logic-building problems.
+Currently practising Python collections, loops, nested lists, tuple operations, and logic-building problems.
 
 **Goal:** Build a strong Python foundation and progress towards interview-level problem solving.
 
