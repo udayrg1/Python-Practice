@@ -28,3 +28,13 @@ for score in scores:
         second_largest_score = score
 
 print(second_largest_score)
+
+
+'''
+One interview-level observation
+Your code uses None to represent “no second-largest score found yet.” 
+This is a good pattern because None clearly indicates that the value hasn't been assigned.
+
+One thing to test next is a tuple where all values are equal, or where there is only one distinct value. 
+Your current code will return None if no second-largest distinct value exists, which is sensible.
+'''
