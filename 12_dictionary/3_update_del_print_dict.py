@@ -26,8 +26,8 @@ employee = {
     "department" : "Automation"
 }
 
-employee["age"] = 30
-employee["salary"] = 60000
+employee["age"] = 30 #updating age value
+employee["salary"] = 60000 # adding salary key and value
 del employee["department"]
 
 print(len(employee))
