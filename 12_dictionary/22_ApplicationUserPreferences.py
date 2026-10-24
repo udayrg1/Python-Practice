@@ -33,9 +33,9 @@ print(inserted_key)  # printing the value font_size key
 
 theme_request = user_preferences.setdefault("theme", "Light") 
 print(theme_request)
-''' Main purpose of setdefault is to to check whther the key exist in the dict, if yes print the value, if not it will insert the key with the given value
-but here key is already carrying a value Dark in dictionary, now if we give a new value Light, it won't update because key has already a value and 
-it will return Dark as ouput'''
+''' Main purpose of setdefault is to to check whether the key exist in the dict, if yes print the value, if not it will insert the key with the given value
+but here key is already there and carrying a value "Dark" in dictionary, now if we give a new value "Light", it won't update because key has already a value and 
+it will return "Dark" as output'''
 
 print(user_preferences)
 print(len(user_preferences))
